@@ -79,7 +79,7 @@ public class LinkedList {
         prev = head1;
         curr = head1.next;
         while (curr != null) {
-            if (prev.data == x) {
+            if (curr.data == x) {
                 prev.next = curr.next;
                 System.out.println(x + " was deleted.");
                 return;
